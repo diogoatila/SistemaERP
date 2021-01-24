@@ -1,0 +1,6 @@
+C:\SistemaVendasMVC\SistemVendas\SistemVendas\obj\Debug\netcoreapp2.1\Sistema ERP.csprojAssemblyReference.cache
+C:\SistemaVendasMVC\SistemVendas\SistemVendas\obj\Debug\netcoreapp2.1\Sistema ERP.AssemblyInfoInputs.cache
+C:\SistemaVendasMVC\SistemVendas\SistemVendas\obj\Debug\netcoreapp2.1\Sistema ERP.AssemblyInfo.cs
+C:\SistemaVendasMVC\SistemVendas\SistemVendas\obj\Debug\netcoreapp2.1\Sistema ERP.csproj.CoreCompileInputs.cache
+C:\SistemaVendasMVC\SistemVendas\SistemVendas\obj\Debug\netcoreapp2.1\Sistema ERP.RazorAssemblyInfo.cache
+C:\SistemaVendasMVC\SistemVendas\SistemVendas\obj\Debug\netcoreapp2.1\Sistema ERP.RazorAssemblyInfo.cs
