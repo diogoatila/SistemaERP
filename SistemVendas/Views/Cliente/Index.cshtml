@@ -3,11 +3,14 @@
 <table class="table table-bordered">
     <thead>
         <tr>
-            <th>Id</th>
+
+            <th>#</th>
+            <th>#</th>
+            <th>ID</th>
             <th>Nome</th>
             <th>CPF</th>
             <th>Email</th>
-            
+
         </tr>
     </thead>
 
@@ -17,8 +20,9 @@
             {
                 <tr>
 
-                    <td> <button type="button" class="btn btn-warning" onclick="Editar(@item.Id)">Editar</button></td>
-                    <td> <button type="button" class="btn btn-danger" onclick="Excluir(@item.Id)">Excluir</button></td>
+                    <td><button type="button" class="btn btn-warning" onclick="Editar(@item.Id)">Editar</button></td>
+                    <td><button type="button" class="btn btn-danger" onclick="Excluir(@item.Id)">Excluir</button></td>
+                   
                     <td>@item.Id</td>
                     <td>@item.Nome</td>
                     <td>@item.CPF</td>
