@@ -37,3 +37,5 @@ C:\SistemaVendasMVC\SistemVendas\SistemVendas\obj\Debug\netcoreapp2.1\SistemaERP
 C:\SistemaVendasMVC\SistemVendas\SistemVendas\obj\Debug\netcoreapp2.1\SistemaERP.genruntimeconfig.cache
 C:\SistemaVendasMVC\SistemVendas\SistemVendas\obj\Debug\netcoreapp2.1\SistemaERP.csproj.CopyComplete
 C:\SistemaVendasMVC\SistemVendas\SistemVendas\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Index.cshtml.g.cs
+C:\SistemaVendasMVC\SistemVendas\SistemVendas\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Cadastro.cshtml.g.cs
+C:\SistemaVendasMVC\SistemVendas\SistemVendas\obj\Debug\netcoreapp2.1\Razor\Views\Cliente\Excluir.cshtml.g.cs

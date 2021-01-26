@@ -14,5 +14,30 @@ namespace SistemaERP.Controllers
             ViewBag.ListaClientes = new ClienteModel().ListarTodosClientes();
             return View();
         }
+        [HttpGet]
+        public IActionResult Cadastro(int? id)
+        {
+           if(id != null)
+            {
+                //Carregar o registro do cliente numa ViewBag
+            }
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Cadastro(ClienteModel cliente)
+        {
+            if (ModelState.IsValid)
+            {
+                cliente.Inserir();
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+        public IActionResult Excluir(int id)
+        {
+
+            return View();
+        }
+
     }
 }

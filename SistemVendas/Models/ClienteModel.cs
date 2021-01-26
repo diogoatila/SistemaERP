@@ -1,6 +1,7 @@
 ﻿using SistemaERP.Uteis;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
@@ -10,8 +11,15 @@ namespace SistemaERP.Models
     public class ClienteModel
     {
         public string Id { get; set; }
+        [Required(ErrorMessage = "Informe o nome do cliente")]
         public string Nome { get; set; }
+
+        [Required(ErrorMessage = "Informe o CPF ou CNPJ do cliente")]
         public string CPF { get; set; }
+
+        [Required(ErrorMessage = "Informe o e-mail do cliente")]
+        [DataType(DataType.EmailAddress)]
+        [EmailAddress(ErrorMessage = "O e-mail informado é inválido!")]
         public string Email { get; set; }
         public string Senha { get; set; }
 
@@ -41,6 +49,14 @@ namespace SistemaERP.Models
 
             return lista;
         }
+
+        public void Inserir()
+        {
+            DAL objDAL = new DAL();
+            string sql = $"INSERT INTO CLIENTE(NOME, CPF_CNPJ, EMAIL, SENHA) VALUES('{Nome}','{CPF}','{Email}','123456')";
+            objDAL.ExecutarComandoSQL(sql);
+        }
+
     }
 }
 
